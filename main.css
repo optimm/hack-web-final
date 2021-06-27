@@ -1,0 +1,231 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+#header{
+    padding: 1px 1px 10px 1px;
+    background:#39A2DB;
+    color: white;
+}
+
+.head{
+    padding: 50px;
+    margin: 100px 20px 30px  20px;
+    background-image: url("background.webp");
+
+box-shadow: 0 1rem 1rem 0 rgba(53, 95, 194, 0.5),
+0 -0.25rem 1.5rem rgb(15, 127, 161) inset,
+0 0.75rem 0.5rem rgba(255,255,255, 0.4) inset,
+0 0.25rem 0.5rem 0 rgb(11, 153, 189) inset;
+border-radius: 50px;
+margin: 5%;
+
+}
+
+
+.title{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 3.3rem;
+  
+    line-height: 1.5;
+    margin-top: 10%;
+    color: white;
+    text-shadow: 2px 6px rgb(255, 255, 255, 0.2);
+
+    
+}
+
+
+.main-image{
+width: 80%;
+height: 50%;
+margin-left: 8%;
+margin-bottom: -10%;
+    
+}
+.download-button1{
+    background:#4bade2 ;
+    margin: 15% 1% 5% 15%;
+    
+   
+    outline: none;
+    border: none;
+        cursor: pointer;
+        
+        padding: 0.8rem 1.5rem;
+        border-radius: 20px;
+        line-height: 2.5rem;
+        font-size: 1.1rem;
+        font-weight: bold;
+      border: 1px solid white;
+      box-shadow: 0 0.5rem 0.5rem 0 rgba(53, 95, 194, 0.5),
+                                0 -0.25rem 1rem rgb(15, 127, 161) inset,
+                                0 0.5rem 0.25rem rgba(255,255,255, 0.4) inset,
+                                0 0.1rem 0.25rem 0 rgb(11, 153, 189) inset;
+                              
+    }
+
+    .download-button2{
+        background:#37a2db ;
+
+      margin: 100px auto 10px auto;
+      padding: 0.5rem 1.5rem;
+        outline: none;
+        border: none;
+            cursor: pointer;
+width: 100%;
+            border-radius: 10px;
+            line-height: 2.5rem;
+            font-size: 1.1rem;
+            font-weight: bold;
+          border: 3px solid white ;
+                                  
+
+          box-shadow: 0 0.5rem 0.5rem 0 rgba(53, 95, 194, 0.5),
+          0 -0.25rem 1rem rgb(15, 127, 161) inset,
+          0 0.5rem 0.25rem rgba(255,255,255, 0.4) inset,
+          0 0.1rem 0.25rem 0 rgb(11, 153, 189) inset;
+
+        }
+        
+    
+
+
+
+    .download-button1:hover{
+      background-color:#5abff6 ;
+        transform: scale(1.1);
+    }
+    .download-button2:hover{
+      background-color:#5abff6 ;
+     transform: scale(1.05);
+    }
+
+
+
+ #features{
+    text-align: center;
+    font-family: "montserrat",sans-serif;
+    
+
+    padding:7% 15%;
+  
+    background-color: #fff;
+  
+    position: relative; 
+  }
+  .feature-box{
+    text-align:center;
+    padding:5%;
+    color: rgb(160, 160, 160);
+}
+.icon{
+    color:#50aadb;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    transform: scale(1.2);
+    color:#39A2DB;
+    
+}
+ .utility-image{
+    height: 160px;
+    margin:  3% auto;
+   
+}
+
+
+  #utilities{
+    
+      text-align: center;
+    background:#39A2DB; 
+    padding:7% 0;
+  }
+  .card{
+    font-family: "montserrat",sans-serif;
+      text-align: center;
+      margin: 3%;
+      padding:8%;
+      background: rgba(179, 177, 177, 0.1);
+
+border-radius: 10px;
+
+box-shadow: 0 1rem 1rem 0 rgba(53, 95, 194, 0.5),
+0 -0.25rem 1.5rem rgb(15, 127, 161) inset,
+0 0.75rem 0.5rem rgba(255,255,255, 0.4) inset,
+0 0.25rem 0.5rem 0 rgb(11, 153, 189) inset;
+transition: all 1s ease-in-out;
+
+
+  }
+  .card:hover{
+      background-image: url("background.webp");
+   
+  }
+  .cards-heading{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 3rem;
+  margin-bottom: 5%;
+    color: rgb(250, 250, 250);
+    text-shadow: 2px 6px rgba(0, 0, 0, 0.1);
+
+  } 
+ 
+
+  #footer{
+    padding: 7% 15%;
+    text-align: center;
+ }
+ .social-icon{
+     margin:20px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 993px) {
+    .title{
+        
+        padding: 5px 30px;
+        font-size: 2.5rem;
+    }
+        .main-image{
+        
+         margin: 10px 30px 0 0;
+         align-self: center;
+        }
+        .head{
+            text-align: center;
+        }
+      }

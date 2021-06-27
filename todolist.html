@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+   <!-- favicon -->
+   <link href="favicon.ico" rel="icon" type="image/x-icon" />
+
+
+
+<!-- my css -->
+    <link rel="stylesheet" href="to-do.css">
+        <!-- font aweome -->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+</head>
+<body>
+  <div class="but">
+    <button id="home" onclick="window.location.href = 'index.html';">Home</button>
+  </div>
+  
+  <div class="head">
+    <div class="intro">
+      <h2 class="heading">Todo App</h2> 
+    </div>
+    
+   
+    <div class="inputField">
+      <input type="text" placeholder="Add your new to-do">
+      <button><i class="fas fa-plus"></i></button>
+    </div>
+    <ul class="todoList">
+  
+    </ul>
+    <div class="footer">
+      <span>You have <span class="pendingTasks"></span> pending tasks</span>
+      <button>Clear All</button>
+    </div>
+  </div>
+  <script src="to-do.js"></script>
+</body>
+</html>

@@ -1,0 +1,177 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   font-family: "montserrat",sans-serif;
+}
+::selection{
+  color: #ffff;
+  background: rgb(142, 73, 232);
+}
+body{
+  width: 100%;
+  height: 100vh;
+text-align: center;
+  padding: 30px;
+ background:#39A2DB;
+}
+#home{
+ 
+  margin-top: 1%;
+
+     
+  background: rgba(255,255,255, 0.1) ;
+   
+  color: white;
+ 
+  outline: none;
+  border: none;
+      cursor: pointer;
+      
+      padding: 1rem 3rem;
+       border-radius: 30px;
+      line-height: 2.5rem;
+      font-size: 1.8rem;
+          box-shadow: 0 0.5rem 0.5rem 0 rgba(53, 95, 194, 0.5),
+                                  0 -0.25rem 1rem rgb(15, 127, 161) inset,
+                                  0 0.5rem 0.25rem rgba(255,255,255, 0.4) inset,
+                                  0 0.1rem 0.25rem 0 rgb(11, 153, 189) inset;
+  }
+  .intro{
+    background-image: url("background.webp");
+    margin: 0 0 10px 0;
+    padding: 40px;
+  }
+  #home:hover{
+      transform:scale(1.1);
+  }
+.head{
+ 
+  max-width: 800px;
+  width: 100%;
+  margin:40px auto;
+  /* padding: 25px; */
+  padding-bottom: 10px;
+  border-radius: 5px;
+ background: rgb(255,255,255,0.1);
+
+
+ 
+}
+.heading{
+    align-self: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.head .inputField{
+  margin: 20px 0;
+  width: 100%;
+  display: flex;
+  height: 45px;
+
+ 
+}
+.inputField input{
+  width: 85%;
+  height: 100%;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  font-size: 17px;
+  padding-left: 15px;
+  transition: all 0.3s ease;
+}
+.inputField input:focus{
+  border-color: #8E49E8;
+}
+.inputField button{
+  width: 50px;
+  height: 100%;
+  border: none;
+  color: #fff;
+  margin-left: 5px;
+  font-size: 21px;
+  outline: none;
+  background: #8E49E8;
+  cursor: pointer;
+  border-radius: 3px;
+  opacity: 0.6;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.inputField button:hover,
+.footer button:hover{
+  background: #721ce3;
+}
+.inputField button.active{
+  opacity: 1;
+  pointer-events: auto;
+}
+.head .todoList{
+  max-height: 250px;
+  overflow-y: auto;
+}
+.todoList li{
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  position: relative;
+  list-style: none;
+  height: 45px;
+  line-height: 45px;
+  margin-bottom: 8px;
+  background: rgb(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 0 15px;
+  cursor: default;
+  overflow: hidden;
+
+}
+.todoList li .icon{
+  position: absolute;
+  right: -45px;
+  background: #e74c3c;
+  width: 45px;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.todoList li:hover .icon{
+  right: 0px;
+}
+.head .footer{
+  
+  color: black;
+font-weight: 500;
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer button{
+  padding: 6px 10px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 5px;
+  background: #8E49E8;
+  cursor: pointer;
+  user-select: none;
+  opacity: 0.6;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.footer button.active{
+  opacity: 1;
+  pointer-events: auto;
+}

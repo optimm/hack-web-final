@@ -1,0 +1,132 @@
+* {
+            box-sizing: border-box;
+            font-family:"montserrat",sans-serif;
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        body {
+            text-align: center;
+            background-color: #39A2DB;
+        }
+       
+        .button1{
+        margin-top: 5%;
+        margin-bottom: 5%;
+           
+        background: rgba(255,255,255, 0.1) ;
+   
+        color: white;
+       
+        outline: none;
+        border: none;
+            cursor: pointer;
+            
+            padding: 1.2rem 4rem;
+             border-radius: 30px;
+            line-height: 2.5rem;
+            font-size: 1.8rem;
+                box-shadow: 0 0.5rem 0.5rem 0 rgba(53, 95, 194, 0.5),
+                                        0 -0.25rem 1rem rgb(15, 127, 161) inset,
+                                        0 0.5rem 0.25rem rgba(255,255,255, 0.4) inset,
+                                        0 0.1rem 0.25rem 0 rgb(11, 153, 189) inset;
+        }
+        .button1:hover{
+            transform:scale(1.1);
+        }
+
+        .calendar {
+            font-size: 1.1rem;
+            color: #fff;
+            margin:  5px auto 50px auto;
+            width: 60vw;
+            background-color: rgba(0, 0, 0, 0.1);
+            
+            box-shadow: 0 1rem 1rem 0 rgba(53, 95, 194, 0.5),
+0 -0.25rem 1.5rem rgb(15, 127, 161) inset,
+0 0.75rem 0.5rem rgba(255,255,255, 0.4) inset,
+0 0.25rem 0.5rem 0 rgb(11, 153, 189) inset;
+border-radius: 10px;
+       
+        }
+        
+
+        .month {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 40px 30px;
+            text-align: center;
+            background-image: url("background.webp");
+font-size: 1.3rem;
+            color: #fff;
+        }
+        #month{
+            font-size: 1.5rem;
+            margin-bottom: 10%;
+        }
+
+        .weekdays {
+            background: rgb(29, 29, 29);
+            color: #fff;
+            padding: 7px 0;
+            display: flex;
+            font-size: 0.8rem;
+        }
+
+        .days {
+            font-weight: 300;
+            padding: 10px 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .weekdays div,
+        .days div {
+            text-align: center;
+            width: 14.28%;
+        }
+
+        .days div {
+            padding: 10px 0;
+            margin-bottom: 10px;
+            transition: all 0.4s;
+        }
+
+        .prev_date {
+            color: #999;
+        }
+
+        .today {
+           
+            background: rgb(29, 29, 29);
+            color: #fff;
+        }
+
+        .days div:hover {
+            cursor: pointer;
+            background-color: #dfe6e9
+        }
+
+        .prev,
+        .next {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            font-size: 23px;
+            background-color: rgba(0, 0, 0, 0.1);
+            transition: all 0.4s;
+        }
+
+        .prev:hover,
+        .next:hover {
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.2);
+        }

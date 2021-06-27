@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'montserrat', sans-serif;
+background-image: url('bg.jpg') ;
+  background-size: cover;
+  background-position: top center;
+  text-align: center;
+  
+}
+button{
+  align-self: center;
+  margin-top: 3%;
+  margin-bottom: 2%;
+
+  background:rgba(255, 255, 255, 0.1) ;
+ 
+  color: white;
+ 
+  outline: none;
+  border: none;
+      cursor: pointer;
+      
+      padding: 1rem 3rem;
+      border-radius: 30px;
+     line-height: 2.5rem;
+     font-size: 1.8rem;
+ 
+    border: 1.5px solid white;
+    box-shadow: 0 0.5rem 0.5rem 0 rgba(53, 95, 194, 0.5),
+                              0 -0.25rem 1rem rgb(15, 127, 161) inset,
+                              0 0.5rem 0.25rem rgba(255,255,255, 0.4) inset,
+                              0 0.1rem 0.25rem 0 rgb(11, 153, 189) inset;
+}
+button:hover{
+  transform:scale(1.1);
+}
+
+
+.main{
+
+
+  width: 350px;
+  margin: 50px auto;
+  border-radius: 23px;
+background: rgba(255, 255, 255, 0.3);
+
+
+  padding: 20px;
+  text-align: center;
+
+border-radius: 20px;
+
+box-shadow: 0 0.5rem 0.5rem 0 rgba(53, 95, 194, 0.5),
+                          0 -0.25rem 1rem rgb(15, 127, 161) inset,
+                          0 0.5rem 0.25rem rgba(255,255,255, 0.4) inset,
+                          0 0.1rem 0.25rem 0 rgb(11, 153, 189) inset;
+
+}
+
+header {
+  align-items: center;
+  margin: 5% 5% 10% 5%;
+
+}
+
+header input {
+  width: 90%;
+  padding: 10px 10px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 16px 0px 16px 0px;
+  border-bottom: 3px solid #DF8E00;
+  
+  color: #313131;
+  font-size: 15px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+}
+
+header input:focus {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+.location .city {
+  color: #FFF;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.location .date {
+  color: #FFF;
+  font-size: 19px;
+}
+
+.current .temp {
+  color: #FFF;
+  font-size: 60px;
+  font-weight: 900;
+  margin: 30px 0 20px 0;
+  text-shadow: 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.current .temp span {
+  font-weight: 500;
+}
+
+.current .weather {
+  color: #FFF;
+  font-size: 28px;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 8px;
+  text-shadow: 0px 3px rgba(0, 0, 0, 0.2);
+}
+#weather-image{
+  height: 100px;
+  margin-bottom: 2%;
+}
+
+.current .hi-low {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 500;
+  text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+}

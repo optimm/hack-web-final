@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi utility</title>
+
+<!-- bootstap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+        <!-- fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <!-- font aweome -->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+        <!-- favicon -->
+        <link href="favicon.ico" rel="icon" type="image/x-icon" />
+
+
+
+
+
+<!-- my css -->
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <section id="header">
+
+
+        <div class="head">
+            <div class="row">
+                <div class="custom-column col-lg-6">
+                    <h1 class="title">Hi, welcome to the multi utility website</h1>
+                    <button type="button" class="btn btn-lg btn-dark download-button1"  onclick="window.location.href = '#utilities';">
+                        Explore utilities</button>
+
+                </div>
+                <div class="custom-column col-lg-6">
+                    <div class="custom"><img class="main-image" src="feature.png" alt="iphone-mockup"></div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Features -->
+
+        <section id="features">
+            <div class="row">
+                <div class=" feature-box col-lg-4">
+                    <i class="fas fa-check-circle fa-3x icon"></i>
+                    <h3>Easy to use</h3>
+                    <p>So easy to use, like a cakewalk</p>
+                </div>
+                <div class="feature-box col-lg-4">
+                    <i class="fas fa-bullseye fa-3x  icon"></i>
+                    <h3>Multi Utility</h3>
+                    <p>Multiple functions at one place</p>
+                </div>
+                <div class="feature-box col-lg-4">
+                    <i class="fas fa-heart fa-3x icon"></i>
+                    <h3>Completely Secure</h3>
+                    <p>We demand no data</p>
+                </div>
+
+            </div>
+        </section>
+
+
+
+    </section>
+
+
+
+ 
+<!-- utilities -->
+    <section id="utilities">
+
+
+        <h2 class="cards-heading">Choose the utility you need</h2>
+
+
+
+        <div class="row">
+            <div class=" utility-colum col-lg-3 col-md-6">
+                <div class="card">
+
+                    <img src="umbrella.png" alt="umbrella image" class="utility-image">
+                    <div class="d-grid gap-2">
+                        <button type="button" class="btn  btn-block btn-lg btn-dark download-button2" onclick="window.location.href = 'weather.html';">
+                            Weather</button>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class=" utility-colum col-lg-3 col-md-6">
+                <div class="card">
+
+                    <img src="3dclock.png" alt="clock image" class="utility-image">
+                    <div class="d-grid gap-2">
+                        <button type="button" class="btn btn-block btn-lg btn-dark download-button2"  onclick="window.location.href = 'clock.html';">
+                            Clock</button>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class=" utility-colum col-lg-3 col-md-6">
+                <div class="card">
+
+                    <img src="to-do.png" alt="to do list image" class="utility-image">
+                    <div class="d-grid gap-2">
+                        <button type="button" class="btn btn-block btn-lg btn-dark download-button2" onclick="window.location.href = 'todolist.html';">
+                            To-Do list</button>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class=" utility-colum col-lg-3 col-md-6">
+                <div class="card">
+
+                    <img src="calander.png" alt="calenderimage" class="utility-image">
+                    <div class="d-grid gap-2">
+                        <button type="button" class="btn btn-lg btn-dark download-button2" onclick="window.location.href = 'calender.html';">
+                            Calender</button>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- Footer -->
+
+    <footer id="footer">
+
+        <div class="container-fluid">
+            <i class="social-icon fab fa-facebook"></i>
+            <i class="social-icon fab fa-twitter"></i>
+            <i class="social-icon fab fa-instagram"></i>
+            <i class="social-icon fas fa-envelope"></i>
+            <p>© Copyright - 2021 Ayush Saxena</p>
+        </div>
+
+    </footer>
+<!-- github tilt js library used -->
+
+
+
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script type="text/javascript">
+    VanillaTilt.init(document.querySelector(".main-image "),{
+        max: 25,
+        speed: 400
+    }); </script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".download-button1"),{
+            max: 25,
+            speed: 100
+        }); </script>
+
+
+
+</body>
+
+</html>
